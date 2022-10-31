@@ -90,7 +90,11 @@ const Login = () => {
                             <Grid item xs={12} sx={{
                                 marginBottom: '16px'
                             }}>
-                                <Button fullWidth variant="contained" endIcon={<LoginIcon />}>Entrar</Button>
+                                <Button fullWidth variant="contained" endIcon={<LoginIcon />}
+                                style={{
+                                    backgroundColor: "#000000",                                    
+                                }}
+                                >Entrar</Button>
                             </Grid>
                             <Link 
                             style={{

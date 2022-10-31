@@ -107,19 +107,29 @@ const Register = () => {
                             <Grid item xs={12} sx={{
                                 marginBottom: '16px'
                             }}>
-                                <Button fullWidth variant="contained" endIcon={<LoginIcon />}>Registrar</Button>
+                                <Button fullWidth variant="contained" endIcon={<LoginIcon />}
+                                style={{
+                                    backgroundColor: "#000000",
+                                }}
+                                >Registrar</Button>
                             </Grid>
                             <Link 
                             style={{
                                 textAlign: 'center',
                                 display: 'block',
-                                width: '100%'
+                                width: '100%',
+                                color: '#ffffff',
+                                padding: "8px 15px",                            
+                                backgroundColor: "#000000",
+                                fontSize: "14",
+                                fontWeight:"bold",
+                                borderRadius: "5"
                             }}
-                            to="/login">Entrar</Link>
+                            to="/login">ENTRAR</Link>
                         </Grid>
                     </Stack>
                 </Grid>   
-           </Grid>
+            </Grid>
 }
 
 export default Register;

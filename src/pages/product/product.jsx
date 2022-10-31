@@ -78,13 +78,13 @@ const Product = () => {
                     <AddIcon color='primary'/>
                 </IconButton>
             </div>
-            <Button variant="contained" size="large" endIcon={<ShoppingCartIcon />} lassName="productItem__buy">Comprar</Button>
+            <Button variant="contained" size="large" endIcon={<ShoppingCartIcon />} lassName="productItem__buy"
+            style={{
+                backgroundColor: "#000000",                                    
+            }}
+            >Comprar</Button>
         </Grid>
     </Grid>
-    // return <h1>
-    //     Produto  branch catalogo
-    
-    //     </h1>
 }
 
 export default Product;

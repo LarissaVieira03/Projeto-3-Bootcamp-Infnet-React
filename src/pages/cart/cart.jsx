@@ -5,6 +5,8 @@ import { Grid, List, ListItem, ListItemAvatar, Button, Stack, Typography, IconBu
 import DeleteIcon from '@mui/icons-material/Delete';
 import "./cart.css";
 
+
+
 import { Link } from "react-router-dom";
 
 const Cart = () =>{
@@ -180,7 +182,11 @@ const Cart = () =>{
                     </li>
                 </ul>
                 <Link to="/checkout">
-                    <Button variant="contained" fullWidth>PAGAR</Button>
+                    <Button variant="contained" fullWidth
+                    style={{
+                        backgroundColor: "#000000",                                    
+                    }}
+                    >PAGAR</Button>
                 </Link>
             </div>
         </Grid>

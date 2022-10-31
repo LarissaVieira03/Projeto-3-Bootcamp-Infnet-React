@@ -21,13 +21,19 @@ function App() {
 
   return (
     <Router>
-      <AppBar position={"static"}>
+      <AppBar position={"static"}
+      style={{
+        backgroundColor: "#000000",                                    
+    }}>
         <Toolbar
           style={{
             justifyContent: "space-between",
           }}
         >
           <Typography variant="h3" component="h5" style={{
+                    
+                                              
+                  
                     color: "#fff",
                     fontFamily: "Judson"
                   }}>

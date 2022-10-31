@@ -35,9 +35,11 @@ const Catalog = () => {
 
                     <Typography variant="p" component="p">{products[id].description.substring(0, 100)}...</Typography>
                     <Link to={"../product/" + id}>
-                        <Button fullWidth variant="contained">
-                            Ver Produto
-                        </Button>
+                        <Button fullWidth variant="contained"
+                        style={{
+                            backgroundColor: "#000000",                                    
+                        }}
+                        >Ver Produto</Button>
                     </Link>
                 </Grid>
             })
