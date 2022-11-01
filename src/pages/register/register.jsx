@@ -51,8 +51,8 @@ const Register = () => {
                         height: '100%',
                         justifyContent: 'center',
                         alignItems: 'center',
-                        paddingLeft: 16,
-                        paddingRight: 16,
+                        paddingLeft: 5,
+                        paddingRight: 150,
                         boxSizing: 'border-box'
                     }}>
                         {/* <img src={} alt={''} */}
@@ -113,19 +113,13 @@ const Register = () => {
                                 }}
                                 >Registrar</Button>
                             </Grid>
-                            <Link 
-                            style={{
+                            <Button fullWidth variant="contained" style={{
+                                backgroundColor: "#000000",
                                 textAlign: 'center',
                                 display: 'block',
-                                width: '100%',
-                                color: '#ffffff',
-                                padding: "8px 15px",                            
-                                backgroundColor: "#000000",
-                                fontSize: "14",
-                                fontWeight:"bold",
-                                borderRadius: "5"
-                            }}
-                            to="/login">ENTRAR</Link>
+                                width: '100%'
+                            }}><Link to="/login">ENTRAR</Link>
+                            </Button>
                         </Grid>
                     </Stack>
                 </Grid>   

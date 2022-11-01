@@ -37,7 +37,7 @@ function App() {
                     color: "#fff",
                     fontFamily: "Judson"
                   }}>
-            <Link to="/catalog">Keller bolsas</Link>
+            <Link to="/catalog">Keller</Link>
           </Typography>
           <div>
             <IconButton edge="end">

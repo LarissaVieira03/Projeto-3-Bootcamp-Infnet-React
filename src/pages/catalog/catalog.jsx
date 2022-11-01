@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Catalog = () => {
     return <Grid container spacing={4} sx={{
-        marginTop: '10px',
+        marginTop: '90px',
         paddingLeft: '32px',
         paddingRight: '32px',
         boxSizing: 'border-box'

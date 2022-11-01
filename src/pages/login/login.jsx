@@ -40,7 +40,7 @@ const Login = () => {
                         alignItem: 'center'
                     }}>
                         <img src={cover} style={{
-                            width: '90%'
+                            width: '85%'
                         }} alt="Logo"/>    
                     </Stack>
                 </Grid>   
@@ -50,7 +50,7 @@ const Login = () => {
                         justifyContent: 'center',
                         alignItems: 'center',
                         paddingLeft: 16,
-                        paddingRight: 16,
+                        paddingRight: 90,
                         boxSizing: 'border-box'
                     }}>
                         {/* <img src={} alt={''} */}
@@ -96,13 +96,14 @@ const Login = () => {
                                 }}
                                 >Entrar</Button>
                             </Grid>
-                            <Link 
-                            style={{
+
+                            <Button fullWidth variant="contained" style={{
+                                backgroundColor: "#000000",
                                 textAlign: 'center',
                                 display: 'block',
                                 width: '100%'
-                            }}
-                            to="/register">Criar conta</Link>
+                            }}><Link to="/register">Criar conta</Link>
+                            </Button>
                         </Grid>
                     </Stack>
                 </Grid>   
